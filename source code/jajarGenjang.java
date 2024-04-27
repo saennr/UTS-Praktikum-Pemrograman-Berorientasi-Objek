@@ -6,19 +6,19 @@ public class jajarGenjang extends bentuk {
 
     }
 
-    public setA(int a){
+    public void setA(int a) {
         this.a = a;
     }
 
-    public getA(){
+    public int getA() {
         return a;
     }
 
-    public setB(int b){
+    public void setB(int b) {
         this.b = b;
     }
 
-    public getB(){
+    public int getB() {
         return b;
     }
 
