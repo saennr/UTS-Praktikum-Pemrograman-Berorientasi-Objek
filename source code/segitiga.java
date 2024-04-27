@@ -7,19 +7,19 @@ public class segitiga extends bentuk implements operasiMatematika {
         this.tinggi = tinggi;
     }
 
-    public setAlas(int alas){
+    public void setAlas(int alas) {
         this.alas = alas;
     }
 
-    public getAlas(){
+    public int getAlas() {
         return alas;
     }
 
-    public setTinggi(int tinggi){
+    public void setTinggi(int tinggi) {
         this.tinggi = tinggi;
     }
 
-    public getTinggi(){
+    public int getTinggi() {
         return tinggi;
     }
 
