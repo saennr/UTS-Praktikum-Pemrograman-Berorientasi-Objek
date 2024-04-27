@@ -7,23 +7,27 @@ public class lingkaran extends bentuk implements operasiMatematika {
         this.jariJari = jariJari;
     }
 
-    public setPhi(double phi){
+    public void setPhi(double phi) {
         this.phi = phi;
     }
 
-    public getPhi(){
+    public double getPhi() {
         return phi;
     }
 
-    public setJariJari(int jariJari){
+    public void setJariJari(int jariJari) {
         this.jariJari = jariJari;
     }
 
-    public setDiameter(int diameter){
+    public int getJariJari() {
+        return jariJari;
+    }
+
+    public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
 
-    public getDiameter(){
+    public int getDiameter() {
         return diameter;
     }
 
