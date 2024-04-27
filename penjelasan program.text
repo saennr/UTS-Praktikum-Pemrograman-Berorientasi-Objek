@@ -1,0 +1,15 @@
+program ini merupakan pengimplementasian dari seluruh konsep PBO yaitu:
+1. Encapsulation
+2. Inheritance
+3. Polimorphism
+4. Interface atau Abstract
+program yang saya buat ini program operasi matematika, dimana isinya itu ada penghitungan luas persegi, lingkaran, segitiga, dan keliling jajar genjang.
+pertama, nama interface nya itu adalah operasiMatematika, yang mana isinya adalah double hitungLuas();
+abstract class merupakan kelas induk dengan nama bentuk, yang isi kelasnya adalah method infoBentuk, dimana ini itu buat menampilkan informasi setiap bentuk misal sisinya berapa.
+1. Encapsulation : Atribut sisi, phi, jari-jari, diameter, alas, tinggi, a dan b dienkapsulasi dalam kelas-kelas yang sesuai dengan menggunakan access modifier private.
+                   lalu diimplementasikan menggunakan setter dan getter
+2. Inheritance : Kelas-kelas Persegi, Lingkaran, Segitiga dan Jajar Genjang mewarisi sifat-sifat kelas Bentuk.
+3. Polimorfisme: Method infoBentuk() di kelas-kelas Persegi, Lingkaran, Segitiga dan Jajar Genjang dioverride untuk menampilkan informasi bentuk.
+4. Interface : Kelas Persegi, Lingkaran, dan Segitiga mengimplementasikan interface OperasiMatematika, sehingga harus menyediakan implementasi untuk method hitungLuas().
+Kelas JajarGenjang  ini turunan dari kelas Bentuk namun tidak mengimplementasikan interface OperasiMatematika. Kelas ini merepresentasikan sebuah jajar genjang dengan atribut alas(a) dan sisi miring(b). Metode hitungKeliling() menghitung keliling jajar genjang.
+Kelas mainBentuk : Kelas ini merupakan kelas utama yang berisi metode main(). Pada metode main(), objek-objek dari berbagai bentuk (persegi, lingkaran, segitiga, dan jajar genjang) dibuat dan informasi tentang masing-masing objek dicetak.
